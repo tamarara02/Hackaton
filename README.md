@@ -11,7 +11,7 @@ Figma Design Link: https://www.figma.com/proto/EQba7BaTZGWYIEtM0LBrI0/USP-Projek
 git clone <repository-url>
 
 ### 2. Frontend Setup
-cd frontend
+cd front
 npm install
 npm start
 - Runs at http://localhost:4200
