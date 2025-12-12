@@ -1,3 +1,9 @@
+DROP DATABASE IF EXISTS `seniero`;
+
+CREATE DATABASE `seniero`;
+
+USE `seniero`;
+
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY, -- Unique identifier for each user
     firstname VARCHAR(50) NOT NULL,   -- First name of the user
@@ -47,3 +53,4 @@ VALUES
     ('bob_white', 'Taxi service', 'Going to a doctor.', '782 Orchard Drive Sunnyvale, CA 94087', 50),
     ('charlie_richardson', 'Taxi service', 'Going to a hairdresser.', '1456 Maple Avenue Springfield, IL 62704', 10),
     ('amanda_collins', 'Animal care', 'Husky, 30 minutes walk in a park.', '411 Cedar Lane Portland, OR 97209', 70);
+
