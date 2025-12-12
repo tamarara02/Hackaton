@@ -19,4 +19,4 @@ npm start
 ### 3. Backend & Database Setup
 1. Import the SQL database into SQL Workbench.
 2. If your database password is different, update it in:
-backend/src/main/java/dv/DB.java
+backend/src/main/java/db/DB.java
